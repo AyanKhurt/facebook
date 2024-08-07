@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    background-color: #F2F4F7;
+    height: 100vh;
+}
+.mainlogo {
+    font-family:"Rubik", sans-serif;;
+    color: rgb(8, 102, 255);
+    font-size: 55px;
+    margin: 0;
+}
+.mainp {
+    font-size: 25px;
+    margin: 0;
+    margin-top: 20px;
+    font-family:"Rubik", sans-serif;;
+}
+.maindiv {
+    width: 390px;
+    margin-right: 150px;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    width: 100%;
+}
+.secdiv {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 1px 1px 8px grey;
+}
+.secdiv input {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 230, 230);
+    font-size: 16px;
+}
+.btn1 {
+    width: 95%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    background-color: #1877F2;
+    border: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.maina {
+    color: #0866FF;
+    font-size: 16px;
+    text-decoration: none;
+    font-family:"Rubik", sans-serif;;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.btn2 {
+    font-size: 14px;
+    background-color: #36A420;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    padding: 13px;
+    font-weight: 700;
+    font-family:"Rubik", sans-serif;;
+    margin-bottom: 50px;
+}
+.thirddiv a { 
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+.maina:hover { 
+    text-decoration: underline;
+
+}
+.thirddiv a:hover {
+    text-decoration: underline;
+}
+.btn1 ,.btn2:hover { 
+    cursor: pointer;
+}
+input:hover{
+    border: 1px solid blue;
+}
+.cont2 {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 700px;
+} 
+.ul1 {
+    display: inline-flex;
+    gap: 10px;
+}
+ul li {
+    list-style: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #737373;
+}
+ul li:hover {
+    text-decoration: underline;
+}
+.ul2 {
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
